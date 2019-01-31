@@ -1,0 +1,91 @@
+
+@font-face{
+    font-family: SocialIcons;
+    src: url('../fonts/social_circles/Social-Circles-v1.1.otf');
+  }
+
+.slide-out-logo{
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-logo{
+    height: 56px;
+
+}
+
+#destaque{
+    width: 100%;
+    height: calc(100% -64px);
+}
+#destaque figure{
+    width: 100%;
+    margin: 0px;
+
+}
+#destaque figure img{
+    width: 100%;
+}
+
+/* Destaques de cor  */
+.servicos-link:hover{
+    color: #d50000;
+    cursor: pointer;
+}
+
+/* Geral */
+#servicos{
+    padding-top: 76px;
+}
+
+/* SERVIÇOS */
+
+.servicos-link:hover{
+    color: #bf360c ;
+    cursor: pointer;
+  }
+  
+  /* PRODUTOS */
+  .card-title{
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  }
+
+/*Produtos*/
+.card-title{
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
+
+}
+/* Localização*/
+#localizacao{
+    width: 100%;
+    height: 600px;
+}
+
+#localizacao iframe{
+    width: 90%;
+    height: 100%;
+}
+
+/*Contatos*/
+
+ input:not([type]):not([readonly]):focus, input[type=text]:not([readonly]):not(.browser-default):focus, input[type=password]:not([readonly]):not(.browser-default):focus, input[type=email]:not([readonly]):not(.browser-default):focus, input[type=url]:not([readonly]):not(.browser-default):focus, input[type=time]:not([readonly]):not(.browser-default):focus, input[type=date]:not([readonly]):not(.browser-default):focus, input[type=datetime]:not([readonly]):not(.browser-default):focus, input[type=datetime-local]:not([readonly]):not(.browser-default):focus, input[type=tel]:not([readonly]):not(.browser-default):focus, input[type=number]:not([readonly]):not(.browser-default):focus, input[type=search]:not([readonly]):not(.browser-default):focus, textarea:not([readonly]).materialize-textarea:focus {
+    border-bottom: 2px solid #d50000 !important;
+    -webkit-box-shadow: 0 1px 0 0 #26a69a;
+    box-shadow: 0px 1px 0px 0px none !important;
+}
+
+    /* Footer */
+
+
+    .icons-list li{
+        display: inline;
+      }
+      
+      .icons-list li a{
+        font-family: SocialIcons;
+        font-size: 64px;
+        color: white;
+      }
+      .icons-list li a:hover{
+        color: black
+      }
